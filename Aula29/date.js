@@ -41,7 +41,7 @@ function formataData(data) {
     const min = zeroAesquerda(data.getMinutes());
     const seg = zeroAesquerda(data.getSeconds());
 
-    return `${dia}/${mes}/${ano} ${hora}:${min}:${seg}`; 
+    return `${dia}/${mes}/${ano} ${hora}:${min}:${seg}`;   
 
 }
 
